@@ -6,8 +6,9 @@
   margin: 0;
   padding: 0;
 }
-body > * > * > *:nth-of-type(even) > *:not(svg, path, p, h2, h1, i, a, li),
+body > * > * > *:nth-of-type(even) > *:not(svg, path, p, h2, h1, a, li),
 body ul > li:nth-of-type(even),
+.box:nth-last-of-type(odd) i,
 h2 span {
   display: inline-block;
   transition: all 1s;
@@ -17,10 +18,11 @@ body
   > *
   > *
   > *:nth-of-type(odd)
-  > *:not(svg, path, p, h2, h1, i, a, button, li:nth-of-type(even)),
+  > *:not(svg, path, p, h2, h1, a, button, li:nth-of-type(even)),
+.box:nth-last-of-type(even) i,
 ul li:nth-child(3) {
   transition: all 2s;
-  animation: wawzaa 6s ease-out 3s infinite alternate-reverse;
+  animation: wawzaa 10s ease-out 3s infinite alternate-reverse;
 }
 @keyframes wawzaa {
   from {
