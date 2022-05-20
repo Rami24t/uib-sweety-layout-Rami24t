@@ -325,3 +325,6 @@ button:active {
     fill: #533430;
   }
 }
+footer:after {
+  content: "Copyright © 2010-2023. Disclaimer.";
+}
