@@ -324,6 +324,12 @@ button:active {
     transition: all 1s;
     fill: #533430;
   }
+    div.container {
+    padding: 0;
+  }
+   .navbar ul li{
+margin: 0 12px 0 0;
+  }
 }
 footer:after {
   content: "Copyright © 2010-2023. Disclaimer.";
