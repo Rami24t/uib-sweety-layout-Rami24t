@@ -330,6 +330,14 @@ button:active {
    .navbar ul li{
 margin: 0 7px 0 0;
   }
+  .box{
+    padding: 12px;
+  }
+  body ul > li:nth-of-type(even)
+  {
+  animation: none;
+  }
+
 }
 footer:after {
   content: "Copyright © 2010-2023. Disclaimer.";
