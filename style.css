@@ -191,6 +191,7 @@ button:active {
   transition: all 0.4s;
   display: flex;
   background-color: rgba(255, 227, 227, 0.833);
+  z-index: 999;
 }
 .mobileNav li:first-of-type {
   transition: all 0.4s;
